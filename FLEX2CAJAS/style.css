@@ -1,0 +1,64 @@
+.body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    flex-direction: row wrap; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container section {
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.caja1 {
+    background-color: #c999af;
+}
+
+.caja2 {
+    background-color: #e3b1c8;
+}
+
+.caja3 {
+    background-color: #fdcae1;
+
+}
+
+.caja4 {
+    background-color: #ffdbea;
+}
+
+.caja5 {
+    background-color:#fcf0f5;
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+    width: 100%;
+}
+
+.container section {
+    min-width: 150px;
+    min-height: 150px;
+}
+
+@media only screen and (min-width:600px) {
+    .caja2, .caja3, .caja4, caja5 {
+        width: 50%
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .caja1 {
+        width: 25%;
+    }
+    .caja2 {
+        width: 75%;
+    }
+    .caja3, .caja4, .caja5 {
+        width: 33.33%
+    }
+}
